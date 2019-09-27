@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10000.16.0917.1429                               -->
+<mapsource inline='true' source-platform='win' version='10.0' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <connection class='OpenStreetMap' max-scale-level='18.0' max-stretch='2.0' min-shrink='0.667' port='8080' server='http://xdworld.vworld.kr' tileset='US\normal' url-format='/2d/Satellite/201301/{Z}/{X}/{Y}.jpeg' />
+  <languages />
+  <layers>
+    <layer display-name='vworld 2dBase' name='Base' request-string='/' show-ui='false' type='features' />
+  </layers>
+  <properties />
+  <map-styles />
+  <mapsource-defaults version='10.0'>
+    <style />
+  </mapsource-defaults>
+  <map-attribution copyright-string='© 국토교통부' copyright-url='http://dev.vworld.kr/dev/dv_apicla_a001.do#12' short-copyright-string='' />
+</mapsource>
