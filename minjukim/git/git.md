@@ -599,6 +599,11 @@ VI : Command Line 시스템에서 메모장/Visual Studio Code 와 같은 Editor
 3.  내 이름으로 된 Branch 를 파서 작업한다
 4. 폴더 내부에 내 이름으로 폴더 만든다
 5. 내 이름 폴더 내에서 작업
-6. 저장 Add Commit
-- 그러면 데잇걸즈 레포지토리에는 업데이트 안되고 내 리포지토리에만 수정
+6. 저장 Add Commit Push
+> git push origin (내 이름 Branch)
+#### : 그러면 데잇걸즈 레포지토리에는 업데이트 안되고 내 리포지토리에만 수정
 7. Merge 해달라고 따로 요청해야 데잇걸즈 레포지토리에 반영된다
+
+Pull Request 수락(Merge) 되면 기존에 만들었던 Branch 가 병합되는 것
+
+그 다음에는 다시 Branch 만들어야 됨
