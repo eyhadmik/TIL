@@ -5,11 +5,8 @@ Public_Data_API/Data/
 EDA/Data/
 EDA/.ipynb_checkpoints/
 
-
 Python/Programmers_Problems/.ipynb_checkpoints/
-
 Python/Python_Study_Checkio/.ipynb_checkpoints/
-
 Python/Lecture_Note_Ashal/.idea
 Python/Lecture_Note_Ashal/.pytest_cache
 Python/Lecture_Note_Ashal/__pycache__
@@ -19,3 +16,7 @@ EDA/.ipynb_checkpoints/
 
 SQL/.ipynb_checkpoints/
 SQL/DB/
+
+Statistics/Data/
+Statistics/.ipynb_checkpoints/
+Statistics/Provided_Lecture_Code/
