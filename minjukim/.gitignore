@@ -1,20 +1,22 @@
 .idea
 
-Public_Data_API/Data/
-
 EDA/Data/
 EDA/.ipynb_checkpoints/
 
 git/git w.curl code.md
 
-Python/Programmers_Problems/.ipynb_checkpoints/
+Pandas/.ipynb_checkpoints/
+
+Public_Data_API/Data/
+Public_Data_API/.ipynb_checkpoints/
+
+
 Python/Python_Study_Checkio/.ipynb_checkpoints/
+Python/Programmers_Problems/.ipynb_checkpoints/
+Python/Programmers_Problems/Kakao2019/.ipynb_checkpoints/
 Python/Lecture_Note_Ashal/.idea
 Python/Lecture_Note_Ashal/.pytest_cache
 Python/Lecture_Note_Ashal/__pycache__
-
-EDA/Data/
-EDA/.ipynb_checkpoints/
 
 SQL/.ipynb_checkpoints/
 SQL/DB/
