@@ -1,0 +1,66 @@
+
+commit 할 파일 경로로 이동하기!!!!!
+
+최초 1회 해야 하는 것
+
+git clone 주소 .
+git branch 자기 이름
+git checkout 자기 이름
+git branch 로 확인
+
+파일 만들기
+
+git add 파일 이름
+git status 를 찍어본다음
+git commit -am ~~
+git push origin 브랜치이름
+
+터미널에서 하는 일 끝
+
+
+깃허브 페이지로 돌아가기, pull request 보내기! > master가 merge 한 것 확인하면 끗
+
+-----------------
+
+이후 작업
+
+해당 로컬 저장소로 위치이동
+git remote -> origin만 뜰 것. (로컬 저장소의 자기 branch)
+
+
+최근 것으로 가져오기
+git remote add upstream git어쩌구주소
+
+git remote -> origin 과 upstream 두 개가 뜰 것
+
+push는 origin, upstream(다같이 쓰는 것)은 fetch
+
+git fetch upstream
+
+
+
+git remote add upstream 주소~
+git pull --rebase upstream master
+
+
+
+# Merge 다 이루어진 상태에서 새로운 브랜치만들고 최신꺼 땡겨오기
+git branch -D 브랜치이름
+git remote add upstream 주소
+git pull upstream master # 이미 내 것이 다 pull request 가 된 상태, 다른 사람 것을 base로 할 필요 없으면 base옵션 필요 x
+
+git branch 새로운 브랜치이름
+
+새로운 거 머 만들기~
+하던거~
+
+git push origin 브랜치 이름 // 자기 브랜치로 안하고 master로 해도 상관 없음. 어차피 자기 브랜치에서만 작업했으니 master는 아무 변경사항이 없어서 아무것도 반영x
+
+
+# 내꺼 수정 중에 (이미 내 브랜치가 있고 master에서 pull request가 되지 않은 상태) base 옮겨야 할 때
+git pull --rebase upstream master // 최신버전으로 base 변경
+git push -f origin master (-f를 해야될까 안해야될까...?)
+
+
+
+
